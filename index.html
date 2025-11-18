@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Edad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main-container">
+        <div class="calculator-container">
+            <div class="calculator-header">
+                <h1 class="calculator-title">Calculadora de Edad</h1>
+                <p class="calculator-subtitle">Descubre tu edad exacta</p>
+            </div>
+           <form id="age-form" class="age-form" novalidate>
+            <div class="input-group">
+                <div class="input-field">
+                    <label for="dia" class="input-label">
+                        <span class="label-text">DIA</span>
+                        <span class="required-asterisk">*</span>
+                    </label>
+                    <input type="number" id="dia" class="input-text" placeholder="DD" min="1" max="31">
+                        <span class="error-message" id="dia-error"></span> 
+                </div>
+                <div class="input-field">
+                    <label for="mes" class="input-label">
+                        <span class="label-text">MES</span>
+                        <span class="required-asterisk">*</span>
+                    </label>
+                    <input type="number" id="mes" class="input-text" placeholder="MM" min="1" max="12">
+                    <span class="error-message" id="mes-error"></span>
+                </div>
+                <div class="input-field">
+                    <label for="año" class="input-label">
+                        <span class="label-text">AÑO</span>
+                        <span class="required-asterisk">*</span>
+                    </label>
+                    <input type="number" id="año" class="input-text" placeholder="AAAA" min="1900">
+                    <span class="error-message" id="año-error"></span>
+                </div>
+            </div>
+           <div class="submit-container">
+            <div class="divider-line">
+                <div class="divider"></div>
+            </div>
+            <button type="submit" class="submit-button" aria-label="Calcular edad">
+                <div  class="button-content">
+                    <svg xmlns="https://wwww.w3.org/2000/svg" width="28" height="26" viewBox="0 0 46 44" class="button-icon">
+                        <g fill="none" stroke="#FFF" stroke-width="2">
+                            <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/>
+                        </g>
+                    </svg>
+                    <span class="button-text">Calcular</span>
+                </div>
+            </button>
+           </div> 
+           </form> 
+           <div class="results-container">
+            <div class="result-header">
+                <h2 class="result-title">Tu edad es:</h2>
+            </div>
+            <div class="result-items">
+                <div class="result-item">
+                    <div class="result-number-container">
+                        <span class="result-number" id="años">--</span>
+                    </div>
+                    <span class="result-label">años</span>
+                </div>
+                <div class="result-item">
+                    <div class="result-number-container">
+                        <span class="result-number" id="meses">--</span>
+                    </div>
+                    <span class="result-label">meses</span>
+                </div>
+            </div>
+            <div class="result-item">
+                <div class="result-number-container">
+                    <span class="result-number" id="dias">--</span>
+                </div>
+                <span class="result-label">días</span>
+            </div>
+           </div>
+           <div class="result-footer">
+            <p class="result-note">Calculando desde tu fecha de nacimiento.</p>
+           </div>
+        </div>
+
+    </main>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
