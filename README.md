@@ -1,39 +1,43 @@
-Calculadora de Edad
+🧮 **Calculadora de Edad**
 
-Una calculadora sencilla que determina tu edad exacta en años, meses y días a partir de tu fecha de nacimiento.
-Desarrollada con HTML, CSS y JavaScript.
-
-Prueba en vivo:
+Una calculadora sencilla y práctica que determina tu edad exacta en años, meses y días a partir de tu fecha de nacimiento.
+Proyecto desarrollado con HTML, CSS y JavaScript.
+<br>
+<br>
+🔗 **Prueba en vivo:**
 https://teresagonzalez26.github.io/Calculadora-de-edad/
+<br>
+<br>
+✨ **Características**
 
-Características
+✔️ Calcula edad exacta (años, meses y días)
 
-Calcula edad exacta (años, meses y días)
+✔️ Validación completa de fechas
 
-Validación completa de fechas
+✔️ Diseño responsive (móvil, tablet y desktop)
 
-Diseño responsive (móvil, tablet y desktop)
+✔️ Mensajes de error claros
 
-Mensajes de error claros
+✔️ Animaciones en los resultados
 
-Animaciones en los resultados
-
-Interfaz fácil de usar
-
-Tecnologías Usadas
+✔️ Interfaz limpia y fácil de usar
+<br>
+<br>
+🛠 **Tecnologías Usadas**
 
 HTML5 – Estructura semántica
 
 CSS3 – Estilos y diseño responsive
 
 JavaScript – Lógica y validaciones
+<br>
+<br>
+🚀 **Cómo usar**
 
-Cómo Usar
-
-Abre la calculadora:
+**Abre la calculadora:**
 https://teresagonzalez26.github.io/Calculadora-de-edad/
 
-Ingresa tu fecha de nacimiento:
+**Ingresa tu fecha de nacimiento:**
 
 Día (1–31)
 
@@ -43,11 +47,12 @@ Año (ej: 1990)
 
 Haz clic en "Calcular"
 
-Verás tu edad exacta en años, meses y días
+Obtén tu edad exacta en años, meses y días
+<br>
+<br>
+🔍 **Validaciones Incluidas**
 
-Validaciones
-
-La calculadora verifica:
+**La calculadora verifica:**
 
 Campos vacíos
 
@@ -57,13 +62,14 @@ Meses inválidos (0, 13, etc.)
 
 Fechas futuras
 
-Fechas imposibles (como 31/04/1991)
+Fechas imposibles (ej: 31/04/1991)
 
 Años bisiestos
+<br>
+<br>
+🎨 **Diseño (CSS)**
 
-Diseño (CSS)
-
-Variables principales:
+**Variables principales:**
 
 --purple-500: hsl(259, 100%, 65%);  /* Morado principal */
 --red-400:    hsl(0, 100%, 67%);    /* Rojo para errores */
@@ -79,18 +85,13 @@ Fuente: Poppins (Google Fonts)
 
 Enfoque: Mobile-first
 
-Interacciones: Hover y focus
-
-Responsive
+Interacciones: Hover y estados de enfoque (focus)
+<br>
+<br>
+📱 **Responsividad**
 
 Móvil (375px): Campos apilados verticalmente
 
-Tablet (768px): Layout adaptativo
+Tablet (768px): Layout adaptable
 
 Desktop (1440px): Campos en línea, botón a la derecha
-
-Desarrollado por
-
-Teresa del Carmen González
-Estudiante de Desarrollo de Software
-Proyecto educativo – Calculadora de Edad
