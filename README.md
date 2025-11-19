@@ -5,6 +5,7 @@ Una calculadora de edad que puede simple y sencillamente calcular tu edad en bas
 Prueba en vivo:
 https://teresagonzalez26.github.io/Calculadora-de-edad/
 
+
 Características
 
 •	Calcula edad exacta en años, meses y días
@@ -19,6 +20,8 @@ Características
 
 •	 Interfaz fácil de usar
 
+
+
  Tecnologías Usadas
  
 •	HTML5 - Estructura semántica
@@ -26,6 +29,8 @@ Características
 •	CSS3 - Estilos y diseño responsive
 
 •	JavaScript - Lógica y validaciones
+
+
 
 Cómo Usar
 
@@ -42,6 +47,8 @@ o	Año (ej: 1990)
 3.	Hacer clic en el botón "Calcular"
    
 4.	Ver tu edad exacta en años, meses y días
+
+   
 
 Validaciones
 
@@ -63,19 +70,28 @@ Diseño:
 
 css
 --purple-500: hsl(259, 100%, 65%);  /* Morado principal */
+
 --red-400:    hsl(0, 100%, 67%);    /* Rojo para errores */
+
 --white:     hsl(0, 100%, 100%);  /* Blanco puro */
---grey-100:  hsl(0, 0%, 94%);     /* Gris claro (fondo) */
---grey-200:  hsl(0, 0%, 86%);     /* Gris medio (bordes) */
---grey-500:  hsl(0, 1%, 44%);     /* Gris oscuro (textos) */
---black:     hsl(0, 0%, 0%);      /* Negro (textos principales) */
---purple-100: hsl(259, 100%, 95%); /* Morado muy claro (fondos) */
+
+--grey-100:  hsl(0, 0%, 94%);     /* Gris claro */
+
+--grey-200:  hsl(0, 0%, 86%);     /* Gris medio */
+
+--grey-500:  hsl(0, 1%, 44%);     /* Gris oscuro */
+
+--black:     hsl(0, 0%, 0%);      /* Negro */
+
+--purple-100: hsl(259, 100%, 95%); /* Morado muy claro*/
 
 •	Fuente: Poppins de Google Fonts
 
 •	Enfoque: Mobile-first
 
 •	Interacciones: Hover y focus states
+
+
 
 Responsive
 
@@ -84,6 +100,7 @@ Responsive
 •	Tablet: 768px - Layout adaptativo
 
 •	Desktop: 1440px - Campos en línea, botón a la derecha
+
 
 Desarrollado por:Teresa del Carmen González
 Estudiante de Desarrollo de Software
