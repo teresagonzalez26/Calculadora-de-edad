@@ -1,116 +1,96 @@
 Calculadora de Edad
 
-Una calculadora de edad que puede simple y sencillamente calcular tu edad en base a tu fecha de nacimiento desarrollada con HTML, CSS y JavaScript.
+Una calculadora sencilla que determina tu edad exacta en años, meses y días a partir de tu fecha de nacimiento.
+Desarrollada con HTML, CSS y JavaScript.
 
 Prueba en vivo:
 https://teresagonzalez26.github.io/Calculadora-de-edad/
 
-
 Características
 
-•	Calcula edad exacta en años, meses y días
+Calcula edad exacta (años, meses y días)
 
-•	Validación completa de fechas
+Validación completa de fechas
 
-•	Diseño responsive (móvil , tablet y desktop)
+Diseño responsive (móvil, tablet y desktop)
 
-•	Mensajes de error claros
+Mensajes de error claros
 
-•	Animaciones en resultados
+Animaciones en los resultados
 
-•	 Interfaz fácil de usar
+Interfaz fácil de usar
 
+Tecnologías Usadas
 
+HTML5 – Estructura semántica
 
- Tecnologías Usadas
- 
-•	HTML5 - Estructura semántica
+CSS3 – Estilos y diseño responsive
 
-•	CSS3 - Estilos y diseño responsive
-
-•	JavaScript - Lógica y validaciones
-
-
+JavaScript – Lógica y validaciones
 
 Cómo Usar
 
-1.	Abrir  en tu navegador: https://teresagonzalez26.github.io/Calculadora-de-edad/
-   
-2.	Ingresar tu fecha de nacimiento:
-   
-o	Día (1-31)
+Abre la calculadora:
+https://teresagonzalez26.github.io/Calculadora-de-edad/
 
-o	Mes (1-12)
+Ingresa tu fecha de nacimiento:
 
-o	Año (ej: 1990)
+Día (1–31)
 
-3.	Hacer clic en el botón "Calcular"
-   
-4.	Ver tu edad exacta en años, meses y días
+Mes (1–12)
 
-   
+Año (ej: 1990)
+
+Haz clic en "Calcular"
+
+Verás tu edad exacta en años, meses y días
 
 Validaciones
 
 La calculadora verifica:
 
-•	Campos vacíos
+Campos vacíos
 
-•	Días inválidos (32, 0, etc.)
+Días inválidos (0, 32, etc.)
 
-•	Meses inválidos (13, 0, etc.)
+Meses inválidos (0, 13, etc.)
 
-•	Fechas futuras
+Fechas futuras
 
-•	Fechas imposibles (31/04/1991)
+Fechas imposibles (como 31/04/1991)
 
-•	Años bisiestos
+Años bisiestos
 
+Diseño (CSS)
 
+Variables principales:
 
-Diseño:
-
-css
 --purple-500: hsl(259, 100%, 65%);  /* Morado principal */
-
 --red-400:    hsl(0, 100%, 67%);    /* Rojo para errores */
-
---white:     hsl(0, 100%, 100%);  /* Blanco puro */
-
---grey-100:  hsl(0, 0%, 94%);     /* Gris claro */
-
---grey-200:  hsl(0, 0%, 86%);     /* Gris medio */
-
---grey-500:  hsl(0, 1%, 44%);     /* Gris oscuro */
-
---black:     hsl(0, 0%, 0%);      /* Negro */
-
---purple-100: hsl(259, 100%, 95%); /* Morado muy claro*/
-
-•	Fuente: Poppins de Google Fonts
-
-•	Enfoque: Mobile-first
-
-•	Interacciones: Hover y focus states
+--white:      hsl(0, 100%, 100%);   /* Blanco */
+--grey-100:   hsl(0, 0%, 94%);      /* Gris claro */
+--grey-200:   hsl(0, 0%, 86%);      /* Gris medio */
+--grey-500:   hsl(0, 1%, 44%);      /* Gris oscuro */
+--black:      hsl(0, 0%, 0%);       /* Negro */
+--purple-100: hsl(259, 100%, 95%);  /* Morado muy claro */
 
 
+Fuente: Poppins (Google Fonts)
+
+Enfoque: Mobile-first
+
+Interacciones: Hover y focus
 
 Responsive
 
-•	Móvil: 375px - Campos apilados verticalmente
+Móvil (375px): Campos apilados verticalmente
 
-•	Tablet: 768px - Layout adaptativo
+Tablet (768px): Layout adaptativo
 
-•	Desktop: 1440px - Campos en línea, botón a la derecha
+Desktop (1440px): Campos en línea, botón a la derecha
 
+Desarrollado por
 
-
-Desarrollado por:Teresa del Carmen González
-
+Teresa del Carmen González
 Estudiante de Desarrollo de Software
-
-Proyecto educativo - Calculadora de Edad
-
-
-
-
+Proyecto educativo – Calculadora de Edad
