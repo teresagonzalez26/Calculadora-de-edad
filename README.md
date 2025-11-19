@@ -66,6 +66,8 @@ La calculadora verifica:
 
 •	Años bisiestos
 
+
+
 Diseño:
 
 css
@@ -102,8 +104,11 @@ Responsive
 •	Desktop: 1440px - Campos en línea, botón a la derecha
 
 
+
 Desarrollado por:Teresa del Carmen González
+
 Estudiante de Desarrollo de Software
+
 Proyecto educativo - Calculadora de Edad
 
 
