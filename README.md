@@ -1,4 +1,4 @@
-🧮 **Calculadora de Edad**
+**Calculadora de Edad**
 
 Una calculadora sencilla y práctica que determina tu edad exacta en años, meses y días a partir de tu fecha de nacimiento.
 Proyecto desarrollado con HTML, CSS y JavaScript.
@@ -72,12 +72,19 @@ Años bisiestos
 **Variables principales:**
 
 --purple-500: hsl(259, 100%, 65%);  /* Morado principal */
+
 --red-400:    hsl(0, 100%, 67%);    /* Rojo para errores */
+
 --white:      hsl(0, 100%, 100%);   /* Blanco */
+
 --grey-100:   hsl(0, 0%, 94%);      /* Gris claro */
+
 --grey-200:   hsl(0, 0%, 86%);      /* Gris medio */
+
 --grey-500:   hsl(0, 1%, 44%);      /* Gris oscuro */
+
 --black:      hsl(0, 0%, 0%);       /* Negro */
+
 --purple-100: hsl(259, 100%, 95%);  /* Morado muy claro */
 
 
