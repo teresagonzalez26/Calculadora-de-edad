@@ -4,11 +4,11 @@ Una calculadora sencilla y práctica que determina tu edad exacta en años, mese
 Proyecto desarrollado con HTML, CSS y JavaScript.
 <br>
 <br>
-🔗 **Prueba en vivo:**
+ **Prueba en vivo:**
 https://teresagonzalez26.github.io/Calculadora-de-edad/
 <br>
 <br>
-✨ **Características**
+ **Características**
 
 ✔️ Calcula edad exacta (años, meses y días)
 
@@ -23,7 +23,7 @@ https://teresagonzalez26.github.io/Calculadora-de-edad/
 ✔️ Interfaz limpia y fácil de usar
 <br>
 <br>
-🛠 **Tecnologías Usadas**
+**Tecnologías Usadas**
 
 HTML5 – Estructura semántica
 
@@ -32,7 +32,7 @@ CSS3 – Estilos y diseño responsive
 JavaScript – Lógica y validaciones
 <br>
 <br>
-🚀 **Cómo usar**
+**Cómo usar**
 
 **Abre la calculadora:**
 https://teresagonzalez26.github.io/Calculadora-de-edad/
@@ -50,7 +50,6 @@ Haz clic en "Calcular"
 Obtén tu edad exacta en años, meses y días
 <br>
 <br>
-🔍 **Validaciones Incluidas**
 
 **La calculadora verifica:**
 
@@ -67,7 +66,7 @@ Fechas imposibles (ej: 31/04/1991)
 Años bisiestos
 <br>
 <br>
-🎨 **Diseño (CSS)**
+**Diseño (CSS)**
 
 **Variables principales:**
 
@@ -95,7 +94,7 @@ Enfoque: Mobile-first
 Interacciones: Hover y estados de enfoque (focus)
 <br>
 <br>
-📱 **Responsividad**
+**Responsividad**
 
 Móvil (375px): Campos apilados verticalmente
 
